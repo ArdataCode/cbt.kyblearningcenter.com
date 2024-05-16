@@ -1,0 +1,7 @@
+Date:2023-12-28 14:18:49
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1703747929","productDetails":"Pembelian Paket TOEFL #1","additionalParam":"","merchantUserInfo":"","customerVaName":"Ardhina Swacita","email":"swacitaardhina@gmail.com","phoneNumber":"83104686247","itemDetails":[{"name":"Try Out TOEFL ITP","price":55000,"quantity":1}],"customerDetail":{"firstName":"Ardhina Swacita","lastName":"","email":"swacitaardhina@gmail.com","phoneNumber":"83104686247"},"callbackUrl":"https://phpstack-1124801-3941459.cloudwaysapps.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D12162WGTY071GLPQQGZH","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D12162WGTY071GLPQQGZH","amount":"55000.00","statusCode":"00","statusMessage":"SUCCESS"}
+

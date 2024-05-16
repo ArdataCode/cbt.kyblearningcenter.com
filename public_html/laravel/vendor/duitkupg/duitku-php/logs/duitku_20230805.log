@@ -1,0 +1,14 @@
+Date:2023-08-05 15:22:50
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1691223770","productDetails":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","merchantUserInfo":"","customerVaName":"bagus ngurah alit pu","email":"ngurahpw@gmail.com","phoneNumber":"085739400454","itemDetails":[{"name":"Try Out Akbar #1Tes Bakat Skolastik LPDP","price":55000,"quantity":1}],"customerDetail":{"firstName":"bagus ngurah alit putra wiryawan","lastName":"","email":"ngurahpw@gmail.com","phoneNumber":"085739400454"},"callbackUrl":"https://cbt.kyblearningcenter.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D121628IM5K728EKTZRX6","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D121628IM5K728EKTZRX6","statusCode":"00","statusMessage":"SUCCESS"}
+
+Date:2023-08-05 15:23:28
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1691223808","productDetails":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","merchantUserInfo":"","customerVaName":"bagus ngurah alit pu","email":"ngurahpw@gmail.com","phoneNumber":"085739400454","itemDetails":[{"name":"Try Out Akbar #1Tes Bakat Skolastik LPDP","price":55000,"quantity":1}],"customerDetail":{"firstName":"bagus ngurah alit putra wiryawan","lastName":"","email":"ngurahpw@gmail.com","phoneNumber":"085739400454"},"callbackUrl":"https://cbt.kyblearningcenter.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D12162QDCTYI1I1ZSH1T6","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D12162QDCTYI1I1ZSH1T6","statusCode":"00","statusMessage":"SUCCESS"}
+

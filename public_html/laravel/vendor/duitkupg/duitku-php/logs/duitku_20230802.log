@@ -1,0 +1,47 @@
+Date:2023-08-02 06:33:48
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1690932828","productDetails":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","merchantUserInfo":"","customerVaName":"Diah Wulan Dari","email":"diah.wulandr19@gmail.com","phoneNumber":"89636777410","itemDetails":[{"name":"Try Out Akbar #1Tes Bakat Skolastik LPDP","price":55000,"quantity":1}],"customerDetail":{"firstName":"Diah Wulan Dari","lastName":"","email":"diah.wulandr19@gmail.com","phoneNumber":"89636777410"},"callbackUrl":"https://cbt.kyblearningcenter.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D12162VPOJ5AUGYQNLGWM","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D12162VPOJ5AUGYQNLGWM","statusCode":"00","statusMessage":"SUCCESS"}
+
+Date:2023-08-02 06:39:14
+URL:/index.php
+CALLBACK REQUEST:{"merchantCode":"D12162","amount":"55000","merchantOrderId":"1690932828","productDetail":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","resultCode":"00","signature":"3e72e2a7b0ec660950f4d3aaf36a0e5e","paymentCode":"M2","merchantUserId":"","reference":"D12162VPOJ5AUGYQNLGWM","spUserHash":"","settlementDate":"2023-08-03","publisherOrderId":"M2RQIFBF8VSENNBXV","sourceAccount":""}
+
+Date:2023-08-02 08:51:44
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1690941104","productDetails":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","merchantUserInfo":"","customerVaName":"Nizar Maulidina","email":"nizarmaulidina@gmail.com","phoneNumber":"88213250174","itemDetails":[{"name":"Try Out Akbar #1Tes Bakat Skolastik LPDP","price":55000,"quantity":1}],"customerDetail":{"firstName":"Nizar Maulidina","lastName":"","email":"nizarmaulidina@gmail.com","phoneNumber":"88213250174"},"callbackUrl":"https://cbt.kyblearningcenter.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D12162D605GMHF05O2HD8","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D12162D605GMHF05O2HD8","statusCode":"00","statusMessage":"SUCCESS"}
+
+Date:2023-08-02 08:52:47
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1690941167","productDetails":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","merchantUserInfo":"","customerVaName":"Nizar Maulidina","email":"nizarmaulidina@gmail.com","phoneNumber":"88213250174","itemDetails":[{"name":"Try Out Akbar #1Tes Bakat Skolastik LPDP","price":55000,"quantity":1}],"customerDetail":{"firstName":"Nizar Maulidina","lastName":"","email":"nizarmaulidina@gmail.com","phoneNumber":"88213250174"},"callbackUrl":"https://cbt.kyblearningcenter.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D1216248E70K4HZGJTYUD","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D1216248E70K4HZGJTYUD","statusCode":"00","statusMessage":"SUCCESS"}
+
+Date:2023-08-02 08:59:38
+URL:/index.php
+CALLBACK REQUEST:{"merchantCode":"D12162","amount":"55000","merchantOrderId":"1690941167","productDetail":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","resultCode":"00","signature":"f24611c2d875881ef4eba4c1d5669be5","paymentCode":"DA","merchantUserId":"","reference":"D1216248E70K4HZGJTYUD","spUserHash":"","settlementDate":"2023-08-04","publisherOrderId":"DA2VOF88ZKBKPQJMK"}
+
+Date:2023-08-02 16:40:29
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1690969229","productDetails":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","merchantUserInfo":"","customerVaName":"Dias Astiza","email":"andidiasnasrum@gmail.com","phoneNumber":"081329869330","itemDetails":[{"name":"Try Out Akbar #1Tes Bakat Skolastik LPDP","price":55000,"quantity":1}],"customerDetail":{"firstName":"Dias Astiza","lastName":"","email":"andidiasnasrum@gmail.com","phoneNumber":"081329869330"},"callbackUrl":"https://cbt.kyblearningcenter.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D12162Z2O6NIJPY8H8VZQ","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D12162Z2O6NIJPY8H8VZQ","statusCode":"00","statusMessage":"SUCCESS"}
+
+Date:2023-08-02 16:41:27
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1690969287","productDetails":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","merchantUserInfo":"","customerVaName":"Dias Astiza","email":"andidiasnasrum@gmail.com","phoneNumber":"081329869330","itemDetails":[{"name":"Try Out Akbar #1Tes Bakat Skolastik LPDP","price":55000,"quantity":1}],"customerDetail":{"firstName":"Dias Astiza","lastName":"","email":"andidiasnasrum@gmail.com","phoneNumber":"081329869330"},"callbackUrl":"https://cbt.kyblearningcenter.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D12162KR4WKEQMUW3KY2N","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D12162KR4WKEQMUW3KY2N","statusCode":"00","statusMessage":"SUCCESS"}
+
+Date:2023-08-02 16:42:45
+URL:/index.php
+CALLBACK REQUEST:{"merchantCode":"D12162","amount":"55000","merchantOrderId":"1690969287","productDetail":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","resultCode":"00","signature":"e0df33764f67ebded8c1850e30530ce7","paymentCode":"I1","merchantUserId":"","reference":"D12162KR4WKEQMUW3KY2N","spUserHash":"","settlementDate":"2023-08-03","publisherOrderId":"I12QYEWG4TTJNZNZJ","sourceAccount":""}
+

@@ -1,0 +1,11 @@
+Date:2023-08-03 21:34:20
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1691073260","productDetails":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","merchantUserInfo":"","customerVaName":"Ira","email":"ira28november1999@gmail.com","phoneNumber":"82213619168","itemDetails":[{"name":"Try Out Akbar #1Tes Bakat Skolastik LPDP","price":55000,"quantity":1}],"customerDetail":{"firstName":"Ira","lastName":"","email":"ira28november1999@gmail.com","phoneNumber":"82213619168"},"callbackUrl":"https://cbt.kyblearningcenter.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D1216280I3VZAIP3UX3NP","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D1216280I3VZAIP3UX3NP","statusCode":"00","statusMessage":"SUCCESS"}
+
+Date:2023-08-03 21:38:57
+URL:/index.php
+CALLBACK REQUEST:{"merchantCode":"D12162","amount":"55000","merchantOrderId":"1691073260","productDetail":"Pembelian Paket Try Out Akbar Tes Bakat Skolastik LPDP","additionalParam":"","resultCode":"00","signature":"2d6191679dc58e5f21a759a880715d4f","paymentCode":"SP","merchantUserId":"","reference":"D1216280I3VZAIP3UX3NP","spUserHash":"7aec03854a0d013a685e092ff37f41f5dc6c489a38559aa40a1a2411224abbb0","settlementDate":"2023-08-05","publisherOrderId":"SPWYFXJG6LV0277PM"}
+

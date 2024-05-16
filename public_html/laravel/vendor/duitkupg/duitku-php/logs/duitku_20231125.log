@@ -1,0 +1,7 @@
+Date:2023-11-25 11:43:10
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1700887390","productDetails":"Pembelian Paket SKD ASN/PNS : TWK, TIU dan TKP","additionalParam":"","merchantUserInfo":"","customerVaName":"Ardhina Swacita","email":"swacitaardhina@gmail.com","phoneNumber":"83104686247","itemDetails":[{"name":"Try Out Seleksi Kemampuan Dasar (SKD) ASN/PNS","price":55000,"quantity":1}],"customerDetail":{"firstName":"Ardhina Swacita","lastName":"","email":"swacitaardhina@gmail.com","phoneNumber":"83104686247"},"callbackUrl":"https://phpstack-1124801-3941459.cloudwaysapps.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D1216282ZBKKHSZSMN120","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D1216282ZBKKHSZSMN120","amount":"55000.00","statusCode":"00","statusMessage":"SUCCESS"}
+

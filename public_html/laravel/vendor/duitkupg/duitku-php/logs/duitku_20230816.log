@@ -1,0 +1,11 @@
+Date:2023-08-16 20:06:21
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1692191181","productDetails":"Pembelian Paket Try Out Tes Bakat Skolastik LPDP #1","additionalParam":"","merchantUserInfo":"","customerVaName":"Michele Sabatini Sir","email":"michellesabatinis@gmail.com","phoneNumber":"82111500852","itemDetails":[{"name":"Try Out Tes Bakat Skolastik LPDP #1","price":55000,"quantity":1}],"customerDetail":{"firstName":"Michele Sabatini Siregar","lastName":"","email":"michellesabatinis@gmail.com","phoneNumber":"82111500852"},"callbackUrl":"https://cbt.kyblearningcenter.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D121625OURGIQ3JL0X3H7","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D121625OURGIQ3JL0X3H7","statusCode":"00","statusMessage":"SUCCESS"}
+
+Date:2023-08-16 20:07:51
+URL:/index.php
+CALLBACK REQUEST:{"merchantCode":"D12162","amount":"55000","merchantOrderId":"1692191181","productDetail":"Pembelian Paket Try Out Tes Bakat Skolastik LPDP #1","additionalParam":"","resultCode":"00","signature":"9a1eca594b015d2601e6a7f77f07aaa5","paymentCode":"M2","merchantUserId":"","reference":"D121625OURGIQ3JL0X3H7","spUserHash":"","settlementDate":"2023-08-17","publisherOrderId":"M2E0361Z56VVE86U1","sourceAccount":""}
+

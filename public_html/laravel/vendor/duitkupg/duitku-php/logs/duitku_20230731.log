@@ -1,0 +1,7 @@
+Date:2023-07-31 21:53:23
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1690815202","productDetails":"Pembelian Paket Try Out Mandiri Tes Bakat Skolastik LPDP","additionalParam":"","merchantUserInfo":"","customerVaName":"Ngurah PW","email":"ngurahpw@gmail.com","phoneNumber":"085739400454","itemDetails":[{"name":"Try Out Mandiri Tes Bakat Skolastik LPDP","price":55000,"quantity":1}],"customerDetail":{"firstName":"Ngurah PW","lastName":"","email":"ngurahpw@gmail.com","phoneNumber":"085739400454"},"callbackUrl":"https://cbt.kyblearningcenter.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D121622XHZ5TJ2GUXSPPE","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D121622XHZ5TJ2GUXSPPE","statusCode":"00","statusMessage":"SUCCESS"}
+

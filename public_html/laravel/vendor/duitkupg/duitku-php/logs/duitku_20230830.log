@@ -1,0 +1,7 @@
+Date:2023-08-30 20:37:07
+METHOD:POST
+FUNCTION:Duitku\Pop->createInvoice
+URL:https://api-prod.duitku.com/api/merchant/createInvoice
+REQUEST:{"paymentAmount":55000,"merchantOrderId":"1693402627","productDetails":"Pembelian Paket TOEFL #1","additionalParam":"","merchantUserInfo":"","customerVaName":"bagus ngurah alit pu","email":"ngurahpw@gmail.com","phoneNumber":"085739400454","itemDetails":[{"name":"Try Out TOEFL ITP","price":55000,"quantity":1}],"customerDetail":{"firstName":"bagus ngurah alit putra wiryawan","lastName":"","email":"ngurahpw@gmail.com","phoneNumber":"085739400454"},"callbackUrl":"https://cbt.kyblearningcenter.com/api/callbackduitku","returnUrl":"https://cbt.kyblearningcenter.com/transaksi","expiryPeriod":180}
+RESPONSE:{"merchantCode":"D12162","reference":"D12162TNL3R0HQQW11P0X","paymentUrl":"https://app-prod.duitku.com/redirect_checkout?reference=D12162TNL3R0HQQW11P0X","statusCode":"00","statusMessage":"SUCCESS"}
+
